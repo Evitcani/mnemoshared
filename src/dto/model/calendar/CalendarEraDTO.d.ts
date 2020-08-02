@@ -1,0 +1,12 @@
+import { DateDTO } from "../DateDTO";
+import { DTOType } from "../../DTOType";
+export declare class CalendarEraDTO {
+    id?: string;
+    dtoType: DTOType.CALENDAR_ERA;
+    createdDate?: Date;
+    updatedDate?: Date;
+    name?: string;
+    order?: number;
+    start?: DateDTO;
+    end?: DateDTO;
+}

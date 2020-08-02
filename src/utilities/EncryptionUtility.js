@@ -13,6 +13,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 var EncryptionUtility_1;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EncryptionUtility = void 0;
 const inversify_1 = require("inversify");
 const types_1 = require("../types");
 const crypto = require('crypto');

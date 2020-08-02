@@ -1,0 +1,20 @@
+export declare const TYPES: {
+    App: symbol;
+    CryptKey: symbol;
+    DatabaseUrl: symbol;
+    CharacterController: symbol;
+    CalendarController: symbol;
+    CalendarEraController: symbol;
+    CalendarMonthController: symbol;
+    CalendarMoonController: symbol;
+    CalendarMoonPhaseController: symbol;
+    CalendarWeekDayController: symbol;
+    CurrentDateController: symbol;
+    NPCController: symbol;
+    PartyController: symbol;
+    PartyFundController: symbol;
+    SendingController: symbol;
+    UserController: symbol;
+    WorldController: symbol;
+    DatabaseService: symbol;
+};

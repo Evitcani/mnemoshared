@@ -2,10 +2,10 @@
   "name": "mnemoshared",
   "version": "0.1.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "deploy": "npm publish",
     "build": "tsc",
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -21,6 +21,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@evitcani"
   },
+  "types": "index.d.ts",
+  "main": "dist/index.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

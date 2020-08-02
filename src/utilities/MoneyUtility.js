@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MoneyUtility = void 0;
 const MoneyType_1 = require("../enums/MoneyType");
 const DTOType_1 = require("../dto/DTOType");
 const Money_1 = require("../models/Money");

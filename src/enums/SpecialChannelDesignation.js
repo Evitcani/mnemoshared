@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SpecialChannelDesignation = void 0;
 /**
  * USed to flag what type of special channel the channel is for the server.
  */

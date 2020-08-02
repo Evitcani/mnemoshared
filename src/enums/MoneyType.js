@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MoneyType = void 0;
 const MoneyArchetype_1 = require("../models/MoneyArchetype");
 class MoneyType {
 }

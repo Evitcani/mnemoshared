@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DTOType = void 0;
 var DTOType;
 (function (DTOType) {
     DTOType["CALENDAR"] = "calendar";
