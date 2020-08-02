@@ -1,10 +1,13 @@
+import {injectable, unmanaged} from "inversify";
+
 const crypto = require('crypto');
 
+@injectable()
 export class EncryptionUtility {
     private readonly key: string;
     private static algorithm = 'aes-256-cbc';
     
-    constructor(cryptKey: string) {
+    constructor(@unmanaged() cryptKey: string) {
         this.key = cryptKey;
     }
 
