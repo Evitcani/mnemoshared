@@ -19,7 +19,7 @@
     "typescript": "^3.9.3"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@mnemosync"
+    "registry": "https://npm.pkg.github.com/@evitcani"
   },
   "keywords": [],
   "author": "",
