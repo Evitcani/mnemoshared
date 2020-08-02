@@ -1,7 +1,7 @@
 import {DTOType} from "../DTOType";
 
 export interface NicknameDTO {
-    id?: number;
+    id?: string;
     dtoType: DTOType.NICKNAME;
     createdDate?: Date;
     updatedDate?: Date;
