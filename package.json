@@ -1,13 +1,14 @@
 {
   "name": "mnemoshared",
   "version": "0.1.2",
-  "description": "",
+  "description": "Steps to run this project:",
   "scripts": {
     "deploy": "npm publish",
     "build": "tsc",
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": ["dist/**/*"],
   "dependencies": {
     "@types/node": "^14.0.5",
     "crypto": "^1.0.1",
@@ -25,5 +26,14 @@
   "main": "dist/index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evitcani/mnemoshared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Evitcani/mnemoshared/issues"
+  },
+  "homepage": "https://github.com/Evitcani/mnemoshared#readme"
 }

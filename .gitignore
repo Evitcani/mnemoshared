@@ -4,3 +4,9 @@ node_modules/
 build/
 tmp/
 temp/
+/lib/
+/dist/**
+
+**/*.js
+**/*.js.map
+**/*.d.ts

@@ -4,6 +4,7 @@
     "moduleResolution": "node",
     "declaration": true,
     "target": "es2016",
+    "outDir": "./dist",
     "lib": [
       "es6",
       "dom"
@@ -24,5 +25,6 @@
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "references": []
 }
