@@ -1,13 +1,10 @@
-import {inject, injectable} from "inversify";
-import {TYPES} from "../types";
 const crypto = require('crypto');
 
-@injectable()
 export class EncryptionUtility {
     private readonly key: string;
     private static algorithm = 'aes-256-cbc';
     
-    constructor(@inject(TYPES.CryptKey) cryptKey: string) {
+    constructor(cryptKey: string) {
         this.key = cryptKey;
     }
 
