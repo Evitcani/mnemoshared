@@ -1,22 +1,25 @@
 {
   "name": "mnemoshared",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Steps to run this project:",
   "scripts": {
     "deploy": "npm publish",
     "build": "tsc",
-    "prepublish": "tsc",
+    "prepare": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "dependencies": {
-    "@types/node": "^14.0.5",
     "crypto": "^1.0.1",
-    "inversify": "latest",
     "dotenv": "^8.2.0",
-    "g": "^2.0.1",
     "reflect-metadata": "^0.1.13",
-    "sqlstring": "^2.3.2",
+    "sqlstring": "^2.3.2"
+  },
+  "devDependencies": {
+    "inversify": "latest",
+    "@types/node": "^14.0.5",
     "typescript": "^3.9.3"
   },
   "publishConfig": {
@@ -27,7 +30,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Evitcani/mnemoshared.git"
