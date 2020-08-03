@@ -10,3 +10,4 @@ temp/
 **/*.js
 **/*.js.map
 **/*.d.ts
+/.env

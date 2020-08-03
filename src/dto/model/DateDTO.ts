@@ -6,6 +6,7 @@ export interface DateDTO {
     name?: string;
     description?: string;
     recurrence?: string;
+    significant?: boolean;
     day?: number;
     month?: number;
     year?: number;
