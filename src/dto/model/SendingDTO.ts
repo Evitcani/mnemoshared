@@ -1,6 +1,7 @@
 import {DTOType} from "../DTOType";
 import {DateDTO} from "./DateDTO";
 import {CharacterDTO} from "./CharacterDTO";
+import {UserDTO} from "./UserDTO";
 
 export interface SendingDTO {
     id?: string;
@@ -18,8 +19,6 @@ export interface SendingDTO {
     toCharacter?: CharacterDTO;
     fromCharacterId?: string;
     fromCharacter?: CharacterDTO;
-    sendingMessageFromDiscordId?: string;
-    sendingMessageFromDiscordName?: string;
-    sendingReplyFromDiscordId?: string;
-    sendingReplyFromDiscordName?: string;
+    sendingMessageFromUser?: UserDTO;
+    sendingReplyFromUser?: UserDTO;
 }
