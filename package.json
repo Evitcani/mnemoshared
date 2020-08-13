@@ -1,6 +1,6 @@
 {
   "name": "mnemoshared",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Steps to run this project:",
   "scripts": {
     "deploy": "npm publish",

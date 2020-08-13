@@ -16,5 +16,5 @@ export enum DTOType {
     SPECIAL_CHANNEL = "special_channel",
     USER = "user",
     WORLD = "world",
-
+    WORLD_TO_CHARACTER = "world_to_character",
 }
