@@ -8,4 +8,5 @@ export interface NicknameDTO {
     name?: string;
     discordId?: string;
     characterId?: string;
+    isPrimaryName?: boolean;
 }
